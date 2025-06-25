@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 
+
 recognizer = cv2.createLBPHFaceRecognizer()
 recognizer.read('TrainingImageLabel/trainner.yml')
 cascadePath = "haarcascade_frontalface_default.xml"
